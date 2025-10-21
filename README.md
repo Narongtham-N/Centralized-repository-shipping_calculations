@@ -18,3 +18,19 @@ All contributions undergo a code review process.
 
 Licensing:
 Contributions are licensed.
+
+## Previewing the Landing Page
+
+To launch a local preview of the static site, run the helper script from the repository root:
+
+```bash
+./preview.sh
+```
+
+You can optionally pass a custom port (default is 8000):
+
+```bash
+./preview.sh 9000
+```
+
+Then open `http://localhost:<port>/index.html` in your browser.
